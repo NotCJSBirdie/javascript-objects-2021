@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Javascript Objects 2021</title>
+  </head>
+  <body>
+    <div class="div1">
+      <h1 class="h1">Javascript Objects 2021</h1>
+    </div>
+    <div class="div2">
+      <p>Objects are variables too. But objects can contain many values.</p>
+
+      <p>
+        This code assigns many values (Fiat, 500, white) to a variable named
+        car:
+      </p>
+
+      <script>
+        const person = {
+          firstName: "John",
+          lastName: "Doe",
+          age: 50,
+          eyeColor: "blue"
+        };
+      </script>
+      <strong>
+        <p>You can access object properties in two ways:</p>
+
+        <p>objectName.propertyName</p>
+        <p>or</p>
+
+        <p>objectName["propertyName"]</p>
+      </strong>
+    </div>
+    <div class="div3">
+      <h3>A method is a function stored as a property.</h3>
+      <img width="500" src="picture1.png" />
+    </div>
+    <div class="div4">
+      <h3>Accessing Object Methods</h3>
+      <p>You access an object method with the following syntax:</p>
+
+      <p>objectName.methodName()</p>
+
+      <p id="p3"></p>
+      <!-- Below is the an example of me trying to access the object using the javascript
+      methods -->
+      <script>
+        const iphone = {
+          color: "blue",
+          size: "13 inch",
+          specifications: function myspec() {
+            return this.color + " " + this.size;
+          }
+        };
+
+        document.getElementById("p3").innerHTML = iphone.specifications();
+      </script>
+      <h3>Do Not Declare Strings, Numbers, and Booleans as Objects!</h3>
+    </div>
+  </body>
+</html>

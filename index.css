@@ -1,0 +1,55 @@
+/* This is an example of an external CSS File */
+
+body {
+  margin: 0;
+}
+.h1 {
+  font-size: 8vw; /*This makes a responsive text*/
+}
+
+p {
+  font-size: 4vw; /*This makes a responsive text*/
+}
+
+h3 {
+  font-size: 6vw;
+}
+
+.div1 {
+  background-color: #98ddca;
+  font-family: BlinkMacSystemFont;
+
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  max-width: 100%;
+  height: auto;
+}
+
+.div2 {
+  background-color: #d5ecc2;
+  font-family: BlinkMacSystemFont;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.div3 {
+  background-color: #ffd3b4;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+img {
+  max-width: 100%; /* This makes the image 
+  Responsive images will automatically adjust to fit the size of the screen. */
+  height: auto;
+}
+
+.div4 {
+  background-color: #ffaaa7;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+}
